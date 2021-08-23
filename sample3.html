@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('./image/Race\ track.jpg');
+            background-repeat:repeat-x;
+            background-size:cover;
+        }
+        #race{
+            height: 300px;
+        }
+        #race1{
+            height: 300px;
+        }
+        #race2{
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./image/sylvia-wilson-final-character-1-running.gif
+    " id="race" />
+
+    <img src="./image/sylvia-wilson-final-character-1-running.gif
+    " id="race1" />
+
+    <img src="./image/race-end.gif
+    " id="race2" />
+
+    <script>
+        var elem = document.querySelector('#race');
+        var elem1 = document.querySelector('#race1');
+        var elem2 = document.querySelector('#race2');
+
+        var animatedElem = elem.animate([
+            
+            {transform: 'translate(0px,200px)' },
+            { transform: 'translate(850px,200px)' },
+
+        ], {
+            duration: 7000,
+            iterations: Infinity
+        })
+
+        var animatedElem1 = elem1.animate([
+            { transform: 'translate(0px,100px)' },
+            { transform: 'translate(850px,100px)' },
+
+        ], {
+            duration: 7000,
+            iterations: Infinity
+        })
+
+        var animatedElem2 = elem2.animate([
+            {
+             transform: 'translate(300px,100px)',
+              }
+
+        ], {
+            iterations:
+            Infinity
+        })
+
+ 
+    </script>
+</body>
+
+</html>
