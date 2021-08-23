@@ -1,0 +1,16 @@
+#clouds{
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+}
+#birds{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+#plane{
+    height: 600px;
+}
+body{
+    background-color:rgb(222, 234, 238);
+}
